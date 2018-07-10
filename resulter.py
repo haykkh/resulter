@@ -146,13 +146,13 @@ def myRank(year, candidateNumber):
     return sorted(everyonesAverage(year), reverse=True).index(myGrades(year, candidateNumber)) + 1
 
 def everyonesAverage(year):
-    '''averages everyone's results in year
+    ''' creates list of weighted average results for everyone in year
     
     Arguments:
         year {str}
 
     returns:
-        list -- averages of everyone's results in year
+        list -- weighted average results of everyone in year
     '''
     return [myGrades(year, cand) for cand in list(badFormat.keys())[1:]]
 
