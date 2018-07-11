@@ -1,6 +1,8 @@
 #  resulter
 > Makes UCL PHAS results better
 
+**note** it's very possible that I made mistakes so take what this gives with a bucketload of salt.
+
 UCL Physics and Astronomy publishes the results for every year as a pdf with this format: 
 
 **Candidate Number**|**Devcom**|**Module1**|**Mark**|**Module2**|**Mark**|**Module3**|**Mark**|**Module4**|**Mark**|**Module5**|**Mark**|**Module6**|**Mark**|**Module7**|**Mark**|**Module8**|**Mark**|**Provisional outcome**| 
@@ -29,7 +31,6 @@ Requires:
   * [pandas](https://pandas.pydata.org/) and [matplotlib](https://matplotlib.org/) for plotting
   * [python-inquirer](https://github.com/magmax/python-inquirer) for the user input
 
-**note** it's very possible that I made mistakes so take what it gives with a bucketload of salt 
 
 ### Making the PDF usable
 
