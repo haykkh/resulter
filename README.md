@@ -31,11 +31,11 @@ Requires:
 
 You can run interact with resulter using [inquirer](https://github.com/magmax/python-inquirer) prompts:
 
-[ask demo](demoAsk.gif)
+![ask demo](demoAsk.gif)
 
 Or equivilantly by passing arguments when you run resulter:
 
-[args demo](demoArgs.gif)
+![args demo](demoArgs.gif)
 
 ```sh
 $ python resulter.py -h 
