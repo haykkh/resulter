@@ -77,7 +77,6 @@ $ python resulter.py -h
 * 0.1.0
     * The first proper release
 
-## Meta
 
 ## Meta
 
