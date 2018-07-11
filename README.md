@@ -4,7 +4,7 @@
 UCL Physics and Astronomy publishes the results for every year as a pdf with this format: 
 
 **Candidate Number**|**Devcom**|**Module1**|**Mark**|**Module2**|**Mark**|**Module3**|**Mark**|**Module4**|**Mark**|**Module5**|**Mark**|**Module6**|**Mark**|**Module7**|**Mark**|**Module8**|**Mark**|**Provisional outcome**| 
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 ABCD0|100|PHAS0000|99|PHAS0001|98|PHAS0002|97|PHAS0003|96|PHAS0004|95|PHAS0005|94|PHAS0006|93|PHAS0007|92|P| 
 ABCD1|24|PHAS0003|93|PHAS0001|55|PHAS0004|43|PHAS0007|40|PHAS0002|34|PHAS0006|25|PHAS0005|15|PHAS0000|3|>>| 
 
