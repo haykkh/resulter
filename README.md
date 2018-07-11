@@ -1,39 +1,84 @@
-# resulter
+#  resulter
 > Makes UCL PHAS results better
 
+UCL Physics and Astronomy publishes the results for every year as a pdf with this format: 
+
+**Candidate Number**|**Devcom**|**Module1**|**Mark**|**Module2**|**Mark**|**Module3**|**Mark**|**Module4**|**Mark**|**Module5**|**Mark**|**Module6**|**Mark**|**Module7**|**Mark**|**Module8**|**Mark**|**Provisional outcome**| 
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+ABCD0|100|PHAS0000|99|PHAS0001|98|PHAS0002|97|PHAS0003|96|PHAS0004|95|PHAS0005|94|PHAS0006|93|PHAS0007|92|P| 
+ABCD1|24|PHAS0003|93|PHAS0001|55|PHAS0004|43|PHAS0007|40|PHAS0002|34|PHAS0006|25|PHAS0005|15|PHAS0000|3|>>| 
+
+resulter lets you:
+  * get your weighted average for a year
+  * get your rank in your year
+  * plot a histogram of the results for a module in the bins: (0,40), (40,50), (50, 60), (60, 70), (80, 90), (90, 100)
+  * re-format the results by module (as below) and output to csv
+
+output format:
+
+**Devcom**|**PHAS0000**|**PHAS0001**|**PHAS0002**|**PHAS0003**|**PHAS0004**|**PHAS0005**|**PHAS0006**|**PHAS0007**|**Averages**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+100|99|98|97|96|95|94|93|92|95.5
+24|3|55|34|93|43|15|25|40|39 
 
 ![](header.png)
 
-## Installation
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more	screenshots.
+Requires:
+  * [Python 3](https://www.python.org/downloads/)
+  * [pandas](https://pandas.pydata.org/) and [matplotlib](https://matplotlib.org/) for plotting
+  * [python-inquirer](https://github.com/magmax/python-inquirer) for the user input
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+You can run interact with resulter using [inquirer](https://github.com/magmax/python-inquirer) prompts:
 
-## Development setup
+[ask demo](demoAsk.gif)
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially dothis 	for multiple platforms.
+Or equivilantly by passing arguments when you run resulter:
+
+[args demo](demoArgs.gif)
 
 ```sh
-make install
-npm test
+$ python resulter.py -h 
+  usage: resulter.py [-h] [--input INPUT] [--format FORMAT] [--plot]
+                     [--exportplots EXPORTPLOTS] [--showplots] [--my]
+                     [--year YEAR] [--rank] [--candidate CANDIDATE]
+  
+  Makes UCL PHAS results better
+  
+  optional arguments:
+    -h, --help              show this help message and exit
+
+    --input, -i INPUT
+                            csv file to import
+
+    --format, -f FORMAT
+                            reformats results by module and exports it to file
+                            specified
+
+    --plot, -p              plot the module results
+
+    --exportplots, -ep EXPORTPLOTS
+                            export all plots to /path/you/want/
+
+    --showplots, -sp        show all plots
+
+    --my, -m                returns your weighted average for the year
+
+    --year, -y YEAR         specify your year
+
+    --rank, -r              returns your rank in the year
+
+    --candidate, -c CANDIDATE
+                            specify your candidate number
 ```
 
+## Release History
 
+* 0.1.0
+    * The first proper release
+
+## Meta
 
 ## Meta
 
