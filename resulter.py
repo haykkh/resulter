@@ -371,6 +371,8 @@ if __name__ == '__main__':
     #                       #
     #########################
 
+    print("\nNote it's very possible that this doesn't work correctly so take what it gives with a bucketload of salt\n")
+
     #########################
     #                       #
     #                       #
