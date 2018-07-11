@@ -40,7 +40,7 @@ You can run interact with resulter using [inquirer](https://github.com/magmax/py
 
 ![ask demo](demoAsk.gif)
 
-Or equivilantly by passing arguments when you run resulter:
+Or equivalently by passing arguments when you run resulter:
 
 ![args demo](demoArgs.gif)
 
