@@ -72,6 +72,8 @@ $ python resulter.py -h
                             specify your candidate number
 ```
 
+You're going to need to convert the .pdf given by UCL into a csv, delimited with ','. To do this I used [smallpdf](https://smallpdf.com/pdf-to-excel)'s PDF to Excel converter (this makes an xlsx with a sheet for every page of the page of the pdf). Then I used [Google Docs](https://docs.google.com) to export each sheet as a csv, and combined them in a texteditor (note though that you should remove the heading lines (cand, devcom, module1, etc) from all pages apart from the first)
+
 ## Release History
 
 * 0.1.0
