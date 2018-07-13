@@ -85,6 +85,14 @@ $ python resultr.py -h
 
 ## Release History
 
+* 0.1.5
+    * changed _matplotlib_ to run with _Agg_ 
+* 0.1.4
+    * added _matplotlib_ requirement in setup.py 
+* 0.1.3
+    * added _inquirer_ requirement in setup.py
+* 0.1.2
+    * added pip
 * 0.1.1
     * Moved prompt and cli code from ``'__main__'`` to ``main()`` 
     * Changed name to _resultr_ cause cool
