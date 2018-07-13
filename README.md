@@ -85,6 +85,8 @@ $ python resulter.py -h
 
 ## Release History
 
+* 0.1.1
+    * Moved prompt and cli code from ``'__main__'`` to ``main()`` 
 * 0.1.0
     * The first proper release
 
