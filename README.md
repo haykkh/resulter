@@ -85,6 +85,12 @@ $ python resultr.py -h
 
 ## Release History
 
+* 0.1.8
+    * changed entry_point to use __main__.py
+* 0.1.7
+    * added entry_point to setup.py (resultr) 
+* 0.1.6
+    * split into _resultr\_format_ and _resultr\_plot_
 * 0.1.5
     * changed _matplotlib_ to run with _Agg_ 
 * 0.1.4

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="resultr",
-    version="0.1.4",
+    version="0.1.8",
     author="Hayk Khachatryan",
     author_email="hi@hayk.io",
     description="Making UCL PHAS results better",
@@ -16,9 +16,14 @@ setuptools.setup(
     license='MIT',
     install_requires=[
           'inquirer>=2.2.0',
-          'pandas>=0.23.0',
-          'matplotlib>=2.2.2'
+          'resultr-format',
+          'resultr-plot'
     ],
+    entry_points = {
+        'console_scripts': [
+              'resultr = resultr.__main__:main'
+          ]
+    },
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

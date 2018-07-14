@@ -1,5 +1,6 @@
 .DS_Store
 input.csv
+output.csv
 plots/*
 
 # Created by https://www.gitignore.io/api/venv,python,virtualenv

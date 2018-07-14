@@ -16,7 +16,6 @@ import pathlib as pathlib
 import pandas as pd
 import matplotlib.pyplot as plt
 import inquirer
-matplotlib.use('Agg')
 
 #########################
 #                       #
@@ -526,7 +525,7 @@ if __name__ == '__main__':
     parser.add_argument('--candidate', '-c',
                         help="specify your candidate number")
     args = parser.parse_args()
-
+    print(args)
     #########################
     #                       #
     #         end           #
