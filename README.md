@@ -23,6 +23,11 @@ output format:
 100|99|98|97|96|95|94|93|92|95.5
 24|3|55|34|93|43|15|25|40|39 
 
+## Installation
+
+```sh
+$ pip install resultr
+```
 
 ## Usage example
 
@@ -48,8 +53,8 @@ Or equivalently by passing arguments when you run resultr:
 ![args demo](demoArgs.gif)
 
 ```sh
-$ python resultr.py -h 
-  usage: resultr.py [-h] [--input INPUT] [--format FORMAT] [--plot]
+$ resultr -h 
+  usage: resultr [-h] [--input INPUT] [--format FORMAT] [--plot]
                      [--exportplots EXPORTPLOTS] [--showplots] [--my]
                      [--year YEAR] [--rank] [--candidate CANDIDATE]
   
