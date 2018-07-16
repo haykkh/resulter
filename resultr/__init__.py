@@ -4,7 +4,7 @@ Makes UCL PHAS results better
 """
 
 __author__ = "Hayk Khachatryan"
-__version__ = "0.1.8"
+__version__ = "0.1.9"
 __license__ = "MIT"
 
 import argparse
@@ -177,10 +177,10 @@ def main(args):
             goodFormat = resultr_format.goodFormater(badFormat, formatOutputPath, year, length)
 
             if args.plot:
-                resultr_plot.howPlotArgs(goodFormat)
+                resultr_plot.howPlotArgs(goodFormat, args.exportplots, args.showplots)
         elif args.plot:
             goodFormat = resultr_format.goodFormater(badFormat, None, year, length)
-            resultr_plot.howPlotArgs(goodFormat)
+            resultr_plot.howPlotArgs(goodFormat, args.exportplots, args.showplots)
 
         [print('\n', x) for x in finalReturn]
 

@@ -85,6 +85,8 @@ $ python resultr.py -h
 
 ## Release History
 
+* 0.1.9
+    * pass _args.exportplots_ and _args.showplots_ to _resultr\_plot.howPlotArgs_ 
 * 0.1.8
     * changed entry_point to use __main__.py
 * 0.1.7
