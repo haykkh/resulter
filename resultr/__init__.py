@@ -11,7 +11,7 @@ import argparse
 import csv
 import sys
 import itertools
-import pathlib as pathlib
+import pathlib
 import inquirer
 
 import resultr_format
@@ -78,7 +78,7 @@ def main(args):
         badFormat = resultr_format.badFormater(inputPath)  # create a list from every row
         howManyCandidates = len(badFormat) - 1
 
-        length = int(len(badFormat['Cand'])/2)
+        length = int(len(badFormat['CAND'])/2)
         finalReturn = []
 
         if "Get your rank in the year" in initialAnswers['whatToDo']:
@@ -143,7 +143,7 @@ def main(args):
         badFormat = resultr_format.badFormater(inputPath)  # create a list from every row
         howManyCandidates = len(badFormat) - 1
 
-        length = int(len(badFormat['Cand'])/2)
+        length = int(len(badFormat['CAND'])/2)
         finalReturn = []
 
         if args.rank:

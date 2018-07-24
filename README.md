@@ -90,6 +90,8 @@ $ resultr -h
 
 ## Release History
 
+* 0.1.10
+    * Changed 'Cand' to 'CAND' in length
 * 0.1.9
     * pass _args.exportplots_ and _args.showplots_ to _resultr\_plot.howPlotArgs_ 
 * 0.1.8
