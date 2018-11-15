@@ -116,7 +116,7 @@ $ resultr -h
 
 ## To-do
 
-* Integrate [https://poetry.eustace.io/](poetry)
+* Integrate [poetry](https://poetry.eustace.io/)
 
 
 ## Meta
