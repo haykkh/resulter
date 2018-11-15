@@ -114,6 +114,10 @@ $ resultr -h
 * 0.1.0
     * The first proper release
 
+## To-do
+
+* Integrate [https://poetry.eustace.io/](poetry)
+
 
 ## Meta
 
